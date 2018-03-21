@@ -61,7 +61,8 @@ $ sudo yum update -y
 $ sudo yum install -y openstack-packstack
 ```
 
-## https://bugzilla.redhat.com/show_bug.cfi?id=1526064
+## Bug 1526064 - python-cryptography should depend on python-setuptools
+https://bugzilla.redhat.com/show_bug.cgi?id=1526064
 ```
 $ sudo yum install -y python-setuptools
 ```
